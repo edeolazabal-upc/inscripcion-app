@@ -1,0 +1,18 @@
+<div class="matricula-container">
+  <h2>Registrar Matrícula</h2>
+
+  <label for="estudiante">Seleccione Estudiante:</label>
+  <select id="estudiante" [(ngModel)]="selectedEstudianteId">
+    <option *ngFor="let estudiante of estudiantes" [value]="estudiante.id">
+      {{ estudiante.nombre }}
+    </option>
+  </select>
+
+  <h3>Cursos</h3>
+  <div *ngFor="let curso of cursos">
+    <input type="checkbox" [value]="curso" (change)="onCursoSelect($event, curso)">
+    {{ curso.descripcion }} ({{ curso.nroCreditos }} créditos)
+  </div>
+
+  <button (click)="registrarMatricula()">Registrar Matrícula</button>
+  </div>
