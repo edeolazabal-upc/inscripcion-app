@@ -9,7 +9,8 @@ import { Matricula } from '../model/matricula';
   providedIn: 'root'
 })
 export class MatriculaService {
-  private apiUrl = 'http://localhost:3000';
+  // private apiUrl = 'http://localhost:3000';
+  private apiUrl = 'https://humble-robot-q79766xxp666347j9-3000.app.github.dev'
 
   constructor(private http: HttpClient) {}
 
