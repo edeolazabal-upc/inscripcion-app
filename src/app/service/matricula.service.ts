@@ -9,7 +9,7 @@ import { Matricula } from '../model/matricula';
   providedIn: 'root'
 })
 export class MatriculaService {
-  private apiUrl = 'http://localhost:3000';
+  private apiUrl = 'http://localhost:3001';
 
   constructor(private http: HttpClient) {}
 

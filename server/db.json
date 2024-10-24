@@ -33,6 +33,38 @@
   ],
   "matriculas": [
     {
+      "id": "0",
+      "estudianteId": "1",
+      "cursos": [
+        {
+          "id": "1",
+          "descripcion": "Aplicaciones Web Avanzadas (AAW)",
+          "nroCreditos": 4
+        },
+        {
+          "id": "3",
+          "descripcion": "Power BI (PBI)",
+          "nroCreditos": 4
+        }
+      ]
+    },
+    {
+      "id": "0",
+      "estudianteId": "1",
+      "cursos": [
+        {
+          "id": "1",
+          "descripcion": "Aplicaciones Web Avanzadas (AAW)",
+          "nroCreditos": 4
+        },
+        {
+          "id": "3",
+          "descripcion": "Power BI (PBI)",
+          "nroCreditos": 4
+        }
+      ]
+    },
+    {
       "id": 0,
       "estudianteId": "1",
       "cursos": [
@@ -45,6 +77,32 @@
           "id": "3",
           "descripcion": "Power BI (PBI)",
           "nroCreditos": 4
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "estudianteId": "2",
+      "cursos": [
+        {
+          "id": "1",
+          "descripcion": "Aplicaciones Web Avanzadas (AAW)",
+          "nroCreditos": 4
+        },
+        {
+          "id": "3",
+          "descripcion": "Power BI (PBI)",
+          "nroCreditos": 4
+        },
+        {
+          "id": "2",
+          "descripcion": "HTML Avanzado",
+          "nroCreditos": 3
+        },
+        {
+          "id": "4",
+          "descripcion": "Sistemas Operativos (SO)",
+          "nroCreditos": 3
         }
       ]
     }
